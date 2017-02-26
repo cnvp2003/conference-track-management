@@ -1,0 +1,8 @@
+[0m[[0minfo[0m] [0m[32mScheduleUtilsSpecs:[0m[0m
+[0m[[0minfo[0m] [0m[32mgetSchedule[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return empty list[0m[0m
+[0m[[0minfo[0m] [0m[32mcheckTalkDuration[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return false for talk duration less than session[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return true for talk duration less than session[0m[0m
+[0m[[0minfo[0m] [0m[32mcheckSessionDuration[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return empty list[0m[0m

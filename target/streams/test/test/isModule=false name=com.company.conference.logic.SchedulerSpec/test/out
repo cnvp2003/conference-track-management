@@ -1,0 +1,7 @@
+[0m[[0minfo[0m] [0m[32mSchedulerSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mcreateTalks[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return empty list[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return list of talks[0m[0m
+[0m[[0minfo[0m] [0m[32mcreateSession[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return tuple as with session and empty list of talks[0m[0m
+[0m[[0minfo[0m] [0m[32m- should return tuple as list of talks and session[0m[0m
