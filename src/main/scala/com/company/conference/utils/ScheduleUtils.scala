@@ -24,7 +24,6 @@ object ScheduleUtils {
   /** check wheather talks duration fits in session or not*/
   def checkTalkDuration(talksList:List[Talks], duration:Int, sessionDuration: Int):Boolean={
     val remaingDuration = sessionDuration - talksList.map(_.duration).sum
-    println(s"REE ${remaingDuration} sessionDuration ${sessionDuration} list ${talksList.map(_.duration).sum}")
     if(duration <= remaingDuration) true else false
   }
 

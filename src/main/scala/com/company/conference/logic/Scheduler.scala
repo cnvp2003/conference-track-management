@@ -121,7 +121,7 @@ object Scheduler {
         session.talks.map { talk=>
           val date = DateTime.parse(talk.scheduleTime.get)
           val schedule = date.toString(format)
-          println(s"${talk.title} ${talk.duration} => ${schedule}")
+          println(s"${schedule} ${talk.title} ${talk.duration}")
         }
       }
     }
